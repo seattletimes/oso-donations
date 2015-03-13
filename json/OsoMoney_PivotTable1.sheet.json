@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Cascade Valley Foundation",
+    "_cn6ca": "Cascade Valley Foundation",
+    "_cokwr": "Community / family services",
+    "sumofamount": "$1,186,381",
+    "averageofamount": "$107,853",
+    "medianofamount": "$49,000",
+    "countofamount": "11"
+  },
+  {
+    "title": "Row: 3",
+    "_cokwr": "Disaster relief",
+    "sumofamount": "$456,500",
+    "averageofamount": "$25,361",
+    "medianofamount": "$15,000",
+    "countofamount": "18"
+  },
+  {
+    "title": "Row: 4",
+    "_cokwr": "Health",
+    "sumofamount": "$13,758.60",
+    "averageofamount": "$3,439.65",
+    "medianofamount": "$1,819.00",
+    "countofamount": "4"
+  },
+  {
+    "title": "Row: 5",
+    "_cokwr": "Youth / education",
+    "sumofamount": "$93,089",
+    "averageofamount": "$31,030",
+    "medianofamount": "$21,000",
+    "countofamount": "3"
+  },
+  {
+    "title": "Cascade Valley Foundation Total",
+    "_cn6ca": "Cascade Valley Foundation Total",
+    "sumofamount": "$1,749,729",
+    "averageofamount": "$48,604",
+    "medianofamount": "$15,000",
+    "countofamount": "36"
+  },
+  {
+    "title": "Red Cross",
+    "_cn6ca": "Red Cross",
+    "_cokwr": "Community / family services",
+    "sumofamount": "$355,000",
+    "averageofamount": "$71,000",
+    "medianofamount": "$100,000",
+    "countofamount": "5"
+  },
+  {
+    "title": "Red Cross Total",
+    "_cn6ca": "Red Cross Total",
+    "sumofamount": "$355,000",
+    "averageofamount": "$71,000",
+    "medianofamount": "$100,000",
+    "countofamount": "5"
+  },
+  {
+    "title": "United Way",
+    "_cn6ca": "United Way",
+    "_cokwr": "Community / family services",
+    "sumofamount": "$1,253,000",
+    "averageofamount": "$78,313",
+    "medianofamount": "$50,000",
+    "countofamount": "16"
+  },
+  {
+    "title": "Row: 10",
+    "_cokwr": "Disaster relief",
+    "sumofamount": "$45,000",
+    "averageofamount": "$22,500",
+    "medianofamount": "$22,500",
+    "countofamount": "2"
+  },
+  {
+    "title": "Row: 11",
+    "_cokwr": "Misc",
+    "sumofamount": "$193,250",
+    "averageofamount": "$32,208",
+    "medianofamount": "$20,000",
+    "countofamount": "6"
+  },
+  {
+    "title": "Row: 12",
+    "_cokwr": "Youth / education",
+    "sumofamount": "$46,500",
+    "averageofamount": "$15,500",
+    "medianofamount": "$11,750",
+    "countofamount": "3"
+  },
+  {
+    "title": "United Way Total",
+    "_cn6ca": "United Way Total",
+    "sumofamount": "$1,537,750",
+    "averageofamount": "$56,954",
+    "medianofamount": "$25,000",
+    "countofamount": "27"
+  },
+  {
+    "title": "Grand Total",
+    "_cn6ca": "Grand Total",
+    "sumofamount": "$3,642,479",
+    "averageofamount": "$53,566",
+    "medianofamount": "$25,000",
+    "countofamount": "68"
+  }
+]
