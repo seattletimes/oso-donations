@@ -1,0 +1,632 @@
+[
+  {
+    "title": "American Red Cross of Snohomish County",
+    "organization": "American Red Cross of Snohomish County",
+    "provider": "United Way",
+    "amount": "25000"
+  },
+  {
+    "title": "American Red Cross of Snohomish County",
+    "organization": "American Red Cross of Snohomish County",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Arlington Family Resource Project",
+    "organization": "Arlington Family Resource Project",
+    "provider": "Cascade Valley Foundation",
+    "amount": "180970"
+  },
+  {
+    "title": "Arlington Family Resource Project",
+    "organization": "Arlington Family Resource Project",
+    "provider": "United Way",
+    "amount": "600000"
+  },
+  {
+    "title": "Arlington Family Resource Project",
+    "organization": "Arlington Family Resource Project",
+    "provider": "Total",
+    "amount": "780970"
+  },
+  {
+    "title": "Arlington Fire Department",
+    "organization": "Arlington Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "50000"
+  },
+  {
+    "title": "Arlington Fire Department",
+    "organization": "Arlington Fire Department",
+    "provider": "Total",
+    "amount": "50000"
+  },
+  {
+    "title": "Arlington Food Bank",
+    "organization": "Arlington Food Bank",
+    "provider": "Red Cross",
+    "amount": "25000"
+  },
+  {
+    "title": "Arlington Food Bank",
+    "organization": "Arlington Food Bank",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Arlington Rural Fire Department No. 21",
+    "organization": "Arlington Rural Fire Department No. 21",
+    "provider": "Cascade Valley Foundation",
+    "amount": "25000"
+  },
+  {
+    "title": "Arlington Rural Fire Department No. 21",
+    "organization": "Arlington Rural Fire Department No. 21",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Burlington Fire Department",
+    "organization": "Burlington Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Burlington Fire Department",
+    "organization": "Burlington Fire Department",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Camp Fire Snohomish County",
+    "organization": "Camp Fire Snohomish County",
+    "provider": "Cascade Valley Foundation",
+    "amount": "21000"
+  },
+  {
+    "title": "Camp Fire Snohomish County",
+    "organization": "Camp Fire Snohomish County",
+    "provider": "Total",
+    "amount": "21000"
+  },
+  {
+    "title": "Camp Fire USA: Snohomish County Council",
+    "organization": "Camp Fire USA: Snohomish County Council",
+    "provider": "United Way",
+    "amount": "24750"
+  },
+  {
+    "title": "Camp Fire USA: Snohomish County Council",
+    "organization": "Camp Fire USA: Snohomish County Council",
+    "provider": "Total",
+    "amount": "24750"
+  },
+  {
+    "title": "Cascade Radiology",
+    "organization": "Cascade Radiology",
+    "provider": "Cascade Valley Foundation",
+    "amount": "120.6"
+  },
+  {
+    "title": "Cascade Radiology",
+    "organization": "Cascade Radiology",
+    "provider": "Total",
+    "amount": "120.6"
+  },
+  {
+    "title": "Cascade Valley Hospital",
+    "organization": "Cascade Valley Hospital",
+    "provider": "Cascade Valley Foundation",
+    "amount": "3119"
+  },
+  {
+    "title": "Cascade Valley Hospital",
+    "organization": "Cascade Valley Hospital",
+    "provider": "Total",
+    "amount": "3119"
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
+    "provider": "Cascade Valley Foundation",
+    "amount": "75000"
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
+    "provider": "Red Cross",
+    "amount": "100000"
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
+    "provider": "United Way",
+    "amount": "53000"
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
+    "provider": "Total",
+    "amount": "228000"
+  },
+  {
+    "title": "City of Darrington",
+    "organization": "City of Darrington",
+    "provider": "Cascade Valley Foundation",
+    "amount": "1500"
+  },
+  {
+    "title": "City of Darrington",
+    "organization": "City of Darrington",
+    "provider": "Total",
+    "amount": "1500"
+  },
+  {
+    "title": "Concrete Fire Department",
+    "organization": "Concrete Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "15000"
+  },
+  {
+    "title": "Concrete Fire Department",
+    "organization": "Concrete Fire Department",
+    "provider": "Total",
+    "amount": "15000"
+  },
+  {
+    "title": "Conway Fire Department",
+    "organization": "Conway Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Conway Fire Department",
+    "organization": "Conway Fire Department",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Darrington Community Center",
+    "organization": "Darrington Community Center",
+    "provider": "Red Cross",
+    "amount": "30000"
+  },
+  {
+    "title": "Darrington Community Center",
+    "organization": "Darrington Community Center",
+    "provider": "Total",
+    "amount": "30000"
+  },
+  {
+    "title": "Darrington Fire Department",
+    "organization": "Darrington Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "50000"
+  },
+  {
+    "title": "Darrington Fire Department",
+    "organization": "Darrington Fire Department",
+    "provider": "Total",
+    "amount": "50000"
+  },
+  {
+    "title": "Darrington Public Schools",
+    "organization": "Darrington Public Schools",
+    "provider": "Cascade Valley Foundation",
+    "amount": "66000"
+  },
+  {
+    "title": "Darrington Public Schools",
+    "organization": "Darrington Public Schools",
+    "provider": "Total",
+    "amount": "66000"
+  },
+  {
+    "title": "Darrington School District",
+    "organization": "Darrington School District",
+    "provider": "Red Cross",
+    "amount": "100000"
+  },
+  {
+    "title": "Darrington School District",
+    "organization": "Darrington School District",
+    "provider": "United Way",
+    "amount": "21750"
+  },
+  {
+    "title": "Darrington School District",
+    "organization": "Darrington School District",
+    "provider": "Total",
+    "amount": "121750"
+  },
+  {
+    "title": "Economic Alliance Snohomish County",
+    "organization": "Economic Alliance Snohomish County",
+    "provider": "United Way",
+    "amount": "15000"
+  },
+  {
+    "title": "Economic Alliance Snohomish County Total",
+    "organization": "Economic Alliance Snohomish County Total",
+    "provider": "Total",
+    "amount": "15000"
+  },
+  {
+    "title": "Gift cards",
+    "organization": "Gift cards",
+    "provider": "Cascade Valley Foundation",
+    "amount": "5695"
+  },
+  {
+    "title": "Gift cards",
+    "organization": "Gift cards",
+    "provider": "Total",
+    "amount": "5695"
+  },
+  {
+    "title": "Green Cross Academy",
+    "organization": "Green Cross Academy",
+    "provider": "Cascade Valley Foundation",
+    "amount": "49000"
+  },
+  {
+    "title": "Green Cross Academy",
+    "organization": "Green Cross Academy",
+    "provider": "United Way",
+    "amount": "3000"
+  },
+  {
+    "title": "Green Cross Academy",
+    "organization": "Green Cross Academy",
+    "provider": "Total",
+    "amount": "52000"
+  },
+  {
+    "title": "Hampton Mill in Darrington",
+    "organization": "Hampton Mill in Darrington",
+    "provider": "United Way",
+    "amount": "150000"
+  },
+  {
+    "title": "Hampton Mill in Darrington",
+    "organization": "Hampton Mill in Darrington",
+    "provider": "Total",
+    "amount": "150000"
+  },
+  {
+    "title": "Housing Program",
+    "organization": "Housing Program",
+    "provider": "Cascade Valley Foundation",
+    "amount": "670000"
+  },
+  {
+    "title": "Housing Program",
+    "organization": "Housing Program",
+    "provider": "Total",
+    "amount": "670000"
+  },
+  {
+    "title": "Kids' Kloset",
+    "organization": "Kids' Kloset",
+    "provider": "Cascade Valley Foundation",
+    "amount": "15000"
+  },
+  {
+    "title": "Kids' Kloset",
+    "organization": "Kids' Kloset",
+    "provider": "Total",
+    "amount": "15000"
+  },
+  {
+    "title": "Marblemount Fire Department",
+    "organization": "Marblemount Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Marblemount Fire Department",
+    "organization": "Marblemount Fire Department",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "provider": "Cascade Valley Foundation",
+    "amount": "50216"
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "provider": "United Way",
+    "amount": "450000"
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "provider": "Total",
+    "amount": "500216"
+  },
+  {
+    "title": "North Sound Society of St. Vincent de Paul",
+    "organization": "North Sound Society of St. Vincent de Paul",
+    "provider": "United Way",
+    "amount": "20000"
+  },
+  {
+    "title": "North Sound Society of St. Vincent de Paul",
+    "organization": "North Sound Society of St. Vincent de Paul",
+    "provider": "Total",
+    "amount": "20000"
+  },
+  {
+    "title": "NW Emergency Physicians",
+    "organization": "NW Emergency Physicians",
+    "provider": "Cascade Valley Foundation",
+    "amount": "519"
+  },
+  {
+    "title": "NW Emergency Physicians",
+    "organization": "NW Emergency Physicians",
+    "provider": "Total",
+    "amount": "519"
+  },
+  {
+    "title": "Oso Community Center",
+    "organization": "Oso Community Center",
+    "provider": "Cascade Valley Foundation",
+    "amount": "5000"
+  },
+  {
+    "title": "Oso Community Center",
+    "organization": "Oso Community Center",
+    "provider": "Total",
+    "amount": "5000"
+  },
+  {
+    "title": "Oso Community Chapel",
+    "organization": "Oso Community Chapel",
+    "provider": "Cascade Valley Foundation",
+    "amount": "75000"
+  },
+  {
+    "title": "Oso Community Chapel",
+    "organization": "Oso Community Chapel",
+    "provider": "Total",
+    "amount": "75000"
+  },
+  {
+    "title": "Oso Fire District",
+    "organization": "Oso Fire District",
+    "provider": "United Way",
+    "amount": "25000"
+  },
+  {
+    "title": "Oso Fire District",
+    "organization": "Oso Fire District",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Oso Firemen's Association Mudslide Fund",
+    "organization": "Oso Firemen's Association Mudslide Fund",
+    "provider": "United Way",
+    "amount": "75000"
+  },
+  {
+    "title": "Oso Firemen's Association Mudslide Fund",
+    "organization": "Oso Firemen's Association Mudslide Fund",
+    "provider": "Total",
+    "amount": "75000"
+  },
+  {
+    "title": "Oso Volunteer Fire Department",
+    "organization": "Oso Volunteer Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "50000"
+  },
+  {
+    "title": "Oso Volunteer Fire Department",
+    "organization": "Oso Volunteer Fire Department",
+    "provider": "Total",
+    "amount": "50000"
+  },
+  {
+    "title": "Post Middle School PTSA",
+    "organization": "Post Middle School PTSA",
+    "provider": "Cascade Valley Foundation",
+    "amount": "6089"
+  },
+  {
+    "title": "Post Middle School PTSA",
+    "organization": "Post Middle School PTSA",
+    "provider": "Total",
+    "amount": "6089"
+  },
+  {
+    "title": "Safe Harbor Free Clinic",
+    "organization": "Safe Harbor Free Clinic",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Safe Harbor Free Clinic",
+    "organization": "Safe Harbor Free Clinic",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "provider": "Red Cross",
+    "amount": "100000"
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "provider": "United Way",
+    "amount": "50000"
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "provider": "Total",
+    "amount": "150000"
+  },
+  {
+    "title": "Sedro-Wooley Fire Department",
+    "organization": "Sedro-Wooley Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "15000"
+  },
+  {
+    "title": "Sedro-Wooley Fire Department",
+    "organization": "Sedro-Wooley Fire Department",
+    "provider": "Total",
+    "amount": "15000"
+  },
+  {
+    "title": "Silvana Fire Department",
+    "organization": "Silvana Fire Department",
+    "provider": "Cascade Valley Foundation",
+    "amount": "15000"
+  },
+  {
+    "title": "Silvana Fire Department",
+    "organization": "Silvana Fire Department",
+    "provider": "Total",
+    "amount": "15000"
+  },
+  {
+    "title": "Skagit County Fire District No. 6",
+    "organization": "Skagit County Fire District No. 6",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Skagit County Fire District No. 6",
+    "organization": "Skagit County Fire District No. 6",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Skagit County Fire District No. 8",
+    "organization": "Skagit County Fire District No. 8",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Skagit County Fire District No. 8",
+    "organization": "Skagit County Fire District No. 8",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Skagit Fire District No. 2",
+    "organization": "Skagit Fire District No. 2",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Skagit Fire District No. 2",
+    "organization": "Skagit Fire District No. 2",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "Snohomish County K9 Unit",
+    "organization": "Snohomish County K9 Unit",
+    "provider": "Cascade Valley Foundation",
+    "amount": "40000"
+  },
+  {
+    "title": "Snohomish County K9 Unit",
+    "organization": "Snohomish County K9 Unit",
+    "provider": "Total",
+    "amount": "40000"
+  },
+  {
+    "title": "Snohomish County Legal Services",
+    "organization": "Snohomish County Legal Services",
+    "provider": "Cascade Valley Foundation",
+    "amount": "12500"
+  },
+  {
+    "title": "Snohomish County Legal Services",
+    "organization": "Snohomish County Legal Services",
+    "provider": "Total",
+    "amount": "12500"
+  },
+  {
+    "title": "Snohomish County Search and Rescue",
+    "organization": "Snohomish County Search and Rescue",
+    "provider": "Cascade Valley Foundation",
+    "amount": "100000"
+  },
+  {
+    "title": "Snohomish County Search and Rescue",
+    "organization": "Snohomish County Search and Rescue",
+    "provider": "Total",
+    "amount": "100000"
+  },
+  {
+    "title": "Stanwood-Camano Incident Support",
+    "organization": "Stanwood-Camano Incident Support",
+    "provider": "Cascade Valley Foundation",
+    "amount": "10000"
+  },
+  {
+    "title": "Stanwood-Camano Incident Support",
+    "organization": "Stanwood-Camano Incident Support",
+    "provider": "Total",
+    "amount": "10000"
+  },
+  {
+    "title": "The Soup Ladies",
+    "organization": "The Soup Ladies",
+    "provider": "Cascade Valley Foundation",
+    "amount": "25000"
+  },
+  {
+    "title": "The Soup Ladies",
+    "organization": "The Soup Ladies",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Town of Darrington",
+    "organization": "Town of Darrington",
+    "provider": "United Way",
+    "amount": "25000"
+  },
+  {
+    "title": "Town of Darrington",
+    "organization": "Town of Darrington",
+    "provider": "Total",
+    "amount": "25000"
+  },
+  {
+    "title": "Union Bank",
+    "organization": "Union Bank",
+    "provider": "United Way",
+    "amount": "250"
+  },
+  {
+    "title": "Union Bank",
+    "organization": "Union Bank",
+    "provider": "Total",
+    "amount": "250"
+  },
+  {
+    "title": "WorkForce Snohomish",
+    "organization": "WorkForce Snohomish",
+    "provider": "Cascade Valley Foundation",
+    "amount": "48000"
+  },
+  {
+    "title": "WorkForce Snohomish",
+    "organization": "WorkForce Snohomish",
+    "provider": "Total",
+    "amount": "48000"
+  }
+]

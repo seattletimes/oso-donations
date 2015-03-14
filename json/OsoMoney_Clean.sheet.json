@@ -380,63 +380,9 @@
   {
     "title": "Arlington Family Resource Project",
     "organization": "Arlington Family Resource Project",
-    "amount": "200000",
+    "amount": "600000",
     "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "200000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "50000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "50000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "50000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Start-up costs for Stanwood Camano Resource Center",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Extra costs related to slide response",
+    "services": "Emergency cash allotments, housing, child care, commuting for Oso families, start-up costs for Stanwood Camano Resource Center, extra costs related to slide response",
     "purpose": "Temporary fund to address immediate needs of community",
     "percentagetoservicescharitiesfiscalyear2013": ""
   },
@@ -452,36 +398,18 @@
   {
     "title": "Catholic Community Services",
     "organization": "Catholic Community Services",
-    "amount": "3000",
+    "amount": "53000",
     "provider": "United Way",
-    "services": "Gas cards",
-    "purpose": "Multi-service social service organization providing programs and services to low-income children, families in Western Washington. Services are provided without regard to race or religious affiliation.",
-    "percentagetoservicescharitiesfiscalyear2013": "92%"
-  },
-  {
-    "title": "Catholic Community Services",
-    "organization": "Catholic Community Services",
-    "amount": "50000",
-    "provider": "United Way",
-    "services": "Support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
+    "services": "Gas cards, support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
     "purpose": "Multi-service social service organization providing programs and services to low-income children, families in Western Washington. Services are provided without regard to race or religious affiliation.",
     "percentagetoservicescharitiesfiscalyear2013": "92%"
   },
   {
     "title": "Darrington School District",
     "organization": "Darrington School District",
-    "amount": "10000",
+    "amount": "21750",
     "provider": "United Way",
-    "services": "Promoting youth sports",
-    "purpose": "",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Darrington School District",
-    "organization": "Darrington School District",
-    "amount": "11750",
-    "provider": "United Way",
-    "services": "Sending 30 children to Camp Arnold in Eatonville",
+    "services": "Promoting youth sports, sending 30 children to Camp Arnold in Eatonville",
     "purpose": "",
     "percentagetoservicescharitiesfiscalyear2013": ""
   },
@@ -506,16 +434,7 @@
   {
     "title": "Hampton Mill in Darrington",
     "organization": "Hampton Mill in Darrington",
-    "amount": "75000",
-    "provider": "United Way",
-    "services": "Parternship with WDOC, covers extra fuel costs for truckers",
-    "purpose": "",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Hampton Mill in Darrington",
-    "organization": "Hampton Mill in Darrington",
-    "amount": "75000",
+    "amount": "150000",
     "provider": "United Way",
     "services": "Parternship with WDOC, covers extra fuel costs for truckers",
     "purpose": "",
@@ -524,36 +443,9 @@
   {
     "title": "North Counties Family Services",
     "organization": "North Counties Family Services",
-    "amount": "200000",
+    "amount": "450000",
     "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Darrington families",
-    "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
-    "percentagetoservicescharitiesfiscalyear2013": "100%"
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "200000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, community for Darrington families",
-    "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
-    "percentagetoservicescharitiesfiscalyear2013": "100%"
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Extra costs",
-    "purpose": "",
-    "percentagetoservicescharitiesfiscalyear2013": "100%"
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Extra costs related to slide response",
+    "services": "Emergency cash allotments, housing, child care, commuting for Darrington families, extra costs related to slide response",
     "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
     "percentagetoservicescharitiesfiscalyear2013": "100%"
   },

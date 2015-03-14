@@ -2,6 +2,13 @@
 require("./lib/social");
 require("./lib/ads");
 var d3 = require("d3");
+var ich = require("icanhaz");
+
+var panelHTML = require("./_panel.html");
+ich.addTemplate("panel", panelHTML);
+
+var width = 320,
+    height = 320;
 
 var providers = { 
   "Cascade Valley Foundation": { 
@@ -25,9 +32,11 @@ osoData.forEach(function(row) {
 
   if (!organizations[row.organization]) { 
     organizations[row.organization] = { 
-      "organization": row.organization, 
-      "amount": 0, 
-      "type": "organization" 
+      organization: row.organization, 
+      amount: 0, 
+      type: "organization",
+      x: width / 2,
+      y: height / 2
     };
   }
   organizations[row.organization].amount += row.amount;
@@ -40,11 +49,14 @@ osoData.forEach(function(row) {
 
 var nodes = [];
 for (var p in providers) {
+  providers[p].x = width / 2;
+  providers[p].y = height / 2;
   nodes.push(providers[p]);
 }
 for (var org in organizations) {
   nodes.push(organizations[org]);
 }
+
 
 var links = osoData.map(function(row) {
   return {
@@ -54,17 +66,15 @@ var links = osoData.map(function(row) {
   }
 });
 
-var width = 960,
-    height = 500;
-
-var color = d3.scale.category20();
-
 var force = d3.layout.force()
-    .charge(function(d) { return -1 * Math.log(d.amount/500)* 3 * 20 })
-    .linkDistance(50)
+    .charge(function(d) { return -1 * Math.log(d.amount/500) * 3 * 20 })
+    .linkDistance(40)
+    // .friction(.3)
+    // .linkStrength(.3)
+    .gravity(0.4)
     .size([width, height]);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select(".graphic").append("svg")
   .attr("width", width)
   .attr("height", height);
 
@@ -89,10 +99,9 @@ var node = svg.selectAll(".node")
   })
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" })
   .call(force.drag)
-  .on("click", function(d) { console.log(d) });
-
-node.append("title")
-  .text(function(d) { return d.organization; });
+  .on("click", function(d) { 
+    document.getElementById("panel").innerHTML = ich.panel( {name: d.organization, amount: "$" + d.amount} );
+  });
 
 force.on("tick", function() {
   link.attr("x1", function(d) { return d.source.x; })
