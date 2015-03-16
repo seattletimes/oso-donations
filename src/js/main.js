@@ -100,8 +100,15 @@ var node = svg.selectAll(".node")
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" })
   .call(force.drag)
   .on("click", function(d) { 
-    document.getElementById("panel").innerHTML = ich.panel( {name: d.organization, amount: "$" + d.amount} );
+    onHoverOrClick(d);
+  })
+  .on("mouseenter", function(d) { 
+    onHoverOrClick(d);
   });
+
+var onHoverOrClick = function(d) {
+  document.getElementById("panel").innerHTML = ich.panel( {name: d.organization, amount: "$" + d.amount} );
+};
 
 force.on("tick", function() {
   link.attr("x1", function(d) { return d.source.x; })
