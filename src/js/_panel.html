@@ -5,20 +5,26 @@
 {{#cascade}}
   <div class='provider'>
     Cascade Valley Foundation: ${{cascade.amount}}
-    <div class="services">{{cascade.services}}</div>
+    {{#cascade.services}}
+      <div class="services">{{cascade.services}}</div>
+    {{/cascade.services}}
   </div>
 {{/cascade}}
 
 {{#redcross}}
   <div class='provider'>
     Red Cross: ${{redcross.amount}}
-    <div class="services">{{redcross.services}}</div>
+    {{#redcross.services}}
+      <div class="services">{{redcross.services}}</div>
+    {{/redcross.services}}
   </div>
 {{/redcross}}
 
 {{#united}}
   <div class='provider'>
     United Way: ${{united.amount}}
-    <div class="services">{{united.services}}</div>
+    {{#united.services}}
+      <div class="services">{{united.services}}</div>
+    {{/united.services}}
   </div>
 {{/united}}

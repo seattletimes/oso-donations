@@ -107,7 +107,7 @@ var node = svg.selectAll(".node")
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : 25 
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" })
+  .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" })
   .call(force.drag)
   .on("click", function(d) { 
     onHoverOrClick(d, this);
@@ -116,14 +116,18 @@ var node = svg.selectAll(".node")
     onHoverOrClick(d, this);
   });
 
+// set up initial panel info
 document.getElementById("panel").innerHTML = ich.panel( {
   name: "2014 Oso Charitable Donations", 
-  amount: formatNumber(totalAmount).toString()
+  amount: formatNumber(totalAmount).toString(),
+  cascade: {amount: formatNumber(providers["Cascade Valley Foundation"].amount).toString()},
+  redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
+  united: {amount: formatNumber(providers["United Way"].amount).toString()}
 } );
 
 var onHoverOrClick = function(d, target) {
-  node.style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" });
-  d3.select(target).style("fill", "#ca6951");
+  node.style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" });
+  d3.select(target).style("fill", function(d) { return d.type == "organization" ? "#f36f21" : "#2384c6" });
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),
