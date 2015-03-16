@@ -1,2 +1,23 @@
 <h2>{{name}}</h2>
-{{amount}}
+Total: ${{amount}}
+
+<p>
+  {{#cascade}}
+    Cascade Valley Foundation: ${{cascade.amount}}
+    <br>{{cascade.services}}
+  {{/cascade}}
+</p>
+
+<p>
+  {{#redcross}}
+    Red Cross: ${{redcross.amount}}
+    <br>{{redcross.services}}
+  {{/redcross}}
+</p>
+
+<p>
+  {{#united}}
+    United Way: ${{united.amount}}
+    <br>{{united.services}}
+  {{/united}}
+</p>

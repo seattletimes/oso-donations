@@ -25,6 +25,7 @@ var providers = {
     "type": "provider" }
 };
 
+var contributions = {};
 var organizations = {};
 
 osoData.forEach(function(row) {
@@ -44,6 +45,14 @@ osoData.forEach(function(row) {
   var p = providers[row.provider];
   if (p) {
     p.amount += row.amount;
+  }
+
+  // need object keyed by organization for info panel
+  if (!contributions[row.organization]) { contributions[row.organization] = {} }
+    console.log(row)
+  contributions[row.organization][row.provider] = {
+    amount: formatNumber(row.amount).toString(),
+    services: row.services
   }
 });
 
@@ -100,14 +109,26 @@ var node = svg.selectAll(".node")
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" })
   .call(force.drag)
   .on("click", function(d) { 
-    onHoverOrClick(d);
+    onHoverOrClick(d, this);
   })
   .on("mouseenter", function(d) { 
-    onHoverOrClick(d);
+    onHoverOrClick(d, this);
   });
 
-var onHoverOrClick = function(d) {
-  document.getElementById("panel").innerHTML = ich.panel( {name: d.organization, amount: "$" + d.amount} );
+var onHoverOrClick = function(d, target) {
+  node.style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" });
+  d3.select(target).style("fill", "#ca6951");
+  var options = {
+    name: d.organization, 
+    amount: formatNumber(d.amount).toString(),
+    type: d.type
+  };
+  if (d.type == "organization") {
+    options.cascade = contributions[d.organization]["Cascade Valley Foundation"];
+    options.redcross = contributions[d.organization]["Red Cross"];
+    options.united = contributions[d.organization]["United Way"];
+  }
+  document.getElementById("panel").innerHTML = ich.panel( options );
 };
 
 force.on("tick", function() {

@@ -13,17 +13,8 @@
     <div id='panel'>Hello world</div>
 
     <script>
-      <% 
-        var totalsData = {};
-        json.OsoMoney_Totals.forEach(function(org) {
-          var name = org.organization;
-          if (!totalsData[name]) { totalsData[name] = {} }
-          totalsData[name][org.provider] = org.amount;
-        console.log(totalsData)
-        });
-      %>
-      var osoData = <%= JSON.stringify(json.OsoMoney_Clean) %>;
-      var totalsData = <%= JSON.stringify(totalsData) %>;
+      var osoData = window.osoData = <%= JSON.stringify(json.OsoMoney_Clean) %>;
+      window.formatNumber = <%= t.formatNumber.toString() %>
     </script>
     <script src="app.js"></script>
     <%= json.project.production ? t.include("partials/_adFoot.html") : "" %>
