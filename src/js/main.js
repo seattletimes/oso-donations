@@ -57,15 +57,16 @@ osoData.forEach(function(row) {
 });
 
 var nodes = [];
+var totalAmount = 0;
 for (var p in providers) {
   providers[p].x = width / 2;
   providers[p].y = height / 2;
   nodes.push(providers[p]);
+  totalAmount += (providers[p].amount *1);
 }
 for (var org in organizations) {
   nodes.push(organizations[org]);
 }
-
 
 var links = osoData.map(function(row) {
   return {
@@ -114,6 +115,11 @@ var node = svg.selectAll(".node")
   .on("mouseenter", function(d) { 
     onHoverOrClick(d, this);
   });
+
+document.getElementById("panel").innerHTML = ich.panel( {
+  name: "2014 Oso Charitable Donations", 
+  amount: formatNumber(totalAmount).toString()
+} );
 
 var onHoverOrClick = function(d, target) {
   node.style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#bac9e7" });
