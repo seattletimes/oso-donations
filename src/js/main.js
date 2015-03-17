@@ -7,8 +7,8 @@ var ich = require("icanhaz");
 var panelHTML = require("./_panel.html");
 ich.addTemplate("panel", panelHTML);
 
-var width = 320,
-    height = 320;
+var width = 400,
+    height = 400;
 
 var providers = { 
   "Cascade Valley Foundation": { 
@@ -49,7 +49,6 @@ osoData.forEach(function(row) {
 
   // need object keyed by organization for info panel
   if (!contributions[row.organization]) { contributions[row.organization] = {} }
-    console.log(row)
   contributions[row.organization][row.provider] = {
     amount: formatNumber(row.amount).toString(),
     services: row.services
@@ -81,7 +80,7 @@ var force = d3.layout.force()
     .linkDistance(40)
     // .friction(.3)
     // .linkStrength(.3)
-    .gravity(0.4)
+    .gravity(0.25)
     .size([width, height]);
 
 var svg = d3.select(".graphic").append("svg")
@@ -96,8 +95,9 @@ var link = svg.selectAll(".link")
   .data(links)
   .enter().append("line")
   .style("stroke-width", function(d) { return Math.log(d.amount/1000); })
-  .style("stroke", "#d1d2d4")
-  .style("stroke-opacity", .7);
+  .style("stroke", "#BBB")
+  .style("stroke-opacity", .7)
+  .style("marker-end",  "url(#suit)");
 
 var node = svg.selectAll(".node")
   .data(nodes)
@@ -108,6 +108,7 @@ var node = svg.selectAll(".node")
     return d.type == "organization" ? size : 25 
   })
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" })
+  .style("stroke", "#888")
   .call(force.drag)
   .on("click", function(d) { 
     onHoverOrClick(d, this);
@@ -115,6 +116,8 @@ var node = svg.selectAll(".node")
   .on("mouseenter", function(d) { 
     onHoverOrClick(d, this);
   });
+
+  node.append("text").text("Hello World");
 
 // set up initial panel info
 document.getElementById("panel").innerHTML = ich.panel( {
@@ -149,4 +152,34 @@ force.on("tick", function() {
 
   node.attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; });
+
+  node.each(collide(0.5));
 });
+
+var padding = 25, // separation between circles
+    radius = 1;
+function collide(alpha) {
+  var quadtree = d3.geom.quadtree(nodes);
+  return function(d) {
+    var rb = 2 * radius + padding,
+        nx1 = d.x - rb,
+        nx2 = d.x + rb,
+        ny1 = d.y - rb,
+        ny2 = d.y + rb;
+    quadtree.visit(function(quad, x1, y1, x2, y2) {
+      if (quad.point && (quad.point !== d)) {
+        var x = d.x - quad.point.x,
+            y = d.y - quad.point.y,
+            l = Math.sqrt(x * x + y * y);
+          if (l < rb) {
+          l = (l - rb) / l * alpha;
+          d.x -= x *= l;
+          d.y -= y *= l;
+          quad.point.x += x;
+          quad.point.y += y;
+        }
+      }
+      return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+    });
+  };
+}

@@ -135,8 +135,8 @@
     "percentagetoservicescharitiesfiscalyear2013": ""
   },
   {
-    "title": "Housing Program",
-    "organization": "Housing Program",
+    "title": "Arlington Family Resource Project Housing Program",
+    "organization": "Arlington Family Resource Project Housing Program",
     "amount": "670000",
     "provider": "Cascade Valley Foundation",
     "services": "Aid to victims who lost primary residence, $30,000 per family for up to 24 months",
@@ -211,7 +211,7 @@
     "organization": "Post Middle School PTSA",
     "amount": "6089",
     "provider": "Cascade Valley Foundation",
-    "services": "",
+    "services": "Arlington-Darrington middle school unity social event",
     "purpose": "",
     "percentagetoservicescharitiesfiscalyear2013": ""
   },
@@ -612,20 +612,11 @@
     "percentagetoservicescharitiesfiscalyear2013": ""
   },
   {
-    "title": "Household assistance",
-    "organization": "Household assistance",
-    "amount": "375239",
-    "provider": "FEMA",
-    "services": "",
-    "purpose": "",
-    "percentagetoservicescharitiesfiscalyear2013": ""
-  },
-  {
-    "title": "Total other needs",
-    "organization": "Total other needs",
-    "amount": "1716217",
-    "provider": "FEMA",
-    "services": "",
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "$300,000",
+    "provider": "United Way",
+    "services": "Ongoing needs",
     "purpose": "",
     "percentagetoservicescharitiesfiscalyear2013": ""
   }
