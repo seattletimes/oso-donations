@@ -11,25 +11,42 @@
 body {
   font-family: @df-sans;
 }
+
 svg {
   // border: 1px solid black;
 }
+
+.node {
+  cursor: pointer;
+}
+
 .node text {
   font-size: 11px;
 }
 
-.graphic, .text {
+.graphic {
   float: left;
+
+  @media @break {
+    margin: auto;
+    width: 380px;
+    float: none;
+  }
+
+  @media (max-width: 380px) {
+    width: 100%;
+  }
 }
 
 .text {
+  float: left;
   vertical-align: top;
-  width: 220px;
-  padding: 20px 0 0 20px;
+  width: 240px;
+  padding-left: 20px;
 
   @media @break {
     width: 100%;
-    padding: 20px;
+    padding: 0;
   }
   // border: 1px solid black;
 }

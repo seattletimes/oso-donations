@@ -7,20 +7,24 @@ var ich = require("icanhaz");
 var panelHTML = require("./_panel.html");
 ich.addTemplate("panel", panelHTML);
 
-var width = 380,
-    height = 380;
+var height = 380;
+var width = document.documentElement.clientWidth;
+if (width > 380) { width = 380 }
 
 var providers = { 
-  "Cascade Valley Foundation": { 
-    "organization": "Cascade Valley Foundation", 
+  "Cascade Valley Hospital Foundation": { 
+    "organization": "Cascade Valley Hospital Foundation", 
+    "display": "CVHF",
     "amount": 0, 
     "type": "provider" },
   "Red Cross": { 
     "organization": "Red Cross", 
+    "display": "Red Cross",
     "amount": 0, 
     "type": "provider" },
   "United Way": { 
     "organization": "United Way", 
+    "display": "United Way",
     "amount": 0, 
     "type": "provider" }
 };
@@ -111,7 +115,7 @@ node.append("circle")
     return d.type == "organization" ? size : 25 
   })
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" })
-  .style("stroke", "#888")
+  .style("stroke", "white")
   
   .on("click", function(d) { 
     onHoverOrClick(d, this);
@@ -125,14 +129,14 @@ node.append("text")
   .attr("dy", ".35em")
   .attr("text-anchor", "middle")
   .text(function(d) { 
-    if (d.type == "provider") { return d.organization; }
+    if (d.type == "provider") { return d.display; }
   });
 
 // set up initial panel info
 document.getElementById("panel").innerHTML = ich.panel( {
   name: "2014 Oso Charitable Donations", 
   amount: formatNumber(totalAmount).toString(),
-  cascade: {amount: formatNumber(providers["Cascade Valley Foundation"].amount).toString()},
+  cascade: {amount: formatNumber(providers["Cascade Valley Hospital Foundation"].amount).toString()},
   redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
   united: {amount: formatNumber(providers["United Way"].amount).toString()}
 } );
@@ -146,7 +150,7 @@ var onHoverOrClick = function(d, target) {
     type: d.type
   };
   if (d.type == "organization") {
-    options.cascade = contributions[d.organization]["Cascade Valley Foundation"];
+    options.cascade = contributions[d.organization]["Cascade Valley Hospital Foundation"];
     options.redcross = contributions[d.organization]["Red Cross"];
     options.united = contributions[d.organization]["United Way"];
   }
