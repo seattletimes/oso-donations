@@ -7,8 +7,8 @@ var ich = require("icanhaz");
 var panelHTML = require("./_panel.html");
 ich.addTemplate("panel", panelHTML);
 
-var width = 400,
-    height = 400;
+var width = 380,
+    height = 380;
 
 var providers = { 
   "Cascade Valley Foundation": { 
