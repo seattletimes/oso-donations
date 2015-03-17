@@ -12,8 +12,8 @@ body {
   font-family: @df-sans;
 }
 
-svg {
-  // border: 1px solid black;
+.node text {
+  font-size: 11px;
 }
 
 .graphic, .text {
@@ -22,15 +22,24 @@ svg {
 
 .text {
   vertical-align: top;
-  // height: 320px;
+  width: 400px;
+  padding: 20px 0 0  20px;
+}
+
+.chatter {
+  font-size: 14px;
+}
+
+.divider {
+  border-top: 1px solid #CCC;
+  margin: 20px 0;
 }
 
 #panel {
   // background: #f3f3f3;
   border-radius: 4px;
-  padding: 20px;
   width: 400px;
-  height: 403px;
+  height: 228px;
   font-size: 16px;
 
   .title {
@@ -56,6 +65,4 @@ svg {
 .credit {
   text-transform: uppercase;
   font-size: 10px;
-  padding-top: 3px;
-  padding-left: 20px;
 }

@@ -57,16 +57,15 @@ osoData.forEach(function(row) {
 
 var nodes = [];
 var totalAmount = 0;
+for (var org in organizations) {
+  nodes.push(organizations[org]);
+}
 for (var p in providers) {
   providers[p].x = width / 2;
   providers[p].y = height / 2;
   nodes.push(providers[p]);
   totalAmount += (providers[p].amount *1);
 }
-for (var org in organizations) {
-  nodes.push(organizations[org]);
-}
-
 var links = osoData.map(function(row) {
   return {
     source: providers[row.provider],
@@ -101,7 +100,11 @@ var link = svg.selectAll(".link")
 
 var node = svg.selectAll(".node")
   .data(nodes)
-  .enter().append("circle")
+  .enter().append("g")
+  .attr("class", "node")
+  .call(force.drag);
+
+node.append("circle")
   .attr("r", function(d) { 
     var size = Math.log(d.amount/500) * 2;
     if (size < 3) { size = 3 }
@@ -109,7 +112,7 @@ var node = svg.selectAll(".node")
   })
   .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" })
   .style("stroke", "#888")
-  .call(force.drag)
+  
   .on("click", function(d) { 
     onHoverOrClick(d, this);
   })
@@ -117,7 +120,13 @@ var node = svg.selectAll(".node")
     onHoverOrClick(d, this);
   });
 
-  node.append("text").text("Hello World");
+node.append("text")
+  .attr("dx", "0")
+  .attr("dy", ".35em")
+  .attr("text-anchor", "middle")
+  .text(function(d) { 
+    if (d.type == "provider") { return d.organization; }
+  });
 
 // set up initial panel info
 document.getElementById("panel").innerHTML = ich.panel( {
@@ -129,7 +138,7 @@ document.getElementById("panel").innerHTML = ich.panel( {
 } );
 
 var onHoverOrClick = function(d, target) {
-  node.style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" });
+  node.selectAll("circle").style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" });
   d3.select(target).style("fill", function(d) { return d.type == "organization" ? "#f36f21" : "#2384c6" });
   var options = {
     name: d.organization, 
@@ -144,15 +153,15 @@ var onHoverOrClick = function(d, target) {
   document.getElementById("panel").innerHTML = ich.panel( options );
 };
 
-force.on("tick", function() {
-  link.attr("x1", function(d) { return d.source.x; })
-      .attr("y1", function(d) { return d.source.y; })
-      .attr("x2", function(d) { return d.target.x; })
-      .attr("y2", function(d) { return d.target.y; });
-
-  node.attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
-
+force.on("tick", function () {
+  link.attr("x1", function (d) { return d.source.x; })
+      .attr("y1", function (d) { return d.source.y; })
+      .attr("x2", function (d) { return d.target.x; })
+      .attr("y2", function (d) { return d.target.y; });
+  d3.selectAll("circle").attr("cx", function (d) { return d.x; })
+      .attr("cy", function (d) { return d.y; });
+  d3.selectAll("text").attr("x", function (d) { return d.x; })
+      .attr("y", function (d) { return d.y; });
   node.each(collide(0.5));
 });
 
