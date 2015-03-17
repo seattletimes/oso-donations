@@ -147,7 +147,7 @@ var onHoverOrClick = function(d, target) {
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),
-    type: d.type
+    wording: d.type == "provider" ? "distributed" : "received"
   };
   if (d.type == "organization") {
     options.cascade = contributions[d.organization]["Cascade Valley Hospital Foundation"];
