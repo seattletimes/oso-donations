@@ -19,29 +19,35 @@ svg {
 }
 
 .graphic, .text {
-  display: inline-block;
+  float: left;
 }
 
 .text {
   vertical-align: top;
   width: 220px;
   padding: 20px 0 0 20px;
+
+  @media @break {
+    width: 100%;
+    padding: 20px;
+  }
   // border: 1px solid black;
 }
 
 .chatter {
-
   font-size: 13px;
 }
 
 #panel {
   background: #f3f3f3;
   border-radius: 4px;
-  width: 220px;
-  // height: 208px;
   font-size: 16px;
   margin: 15px 0;
   padding: 10px;
+
+  @media @break {
+    margin-bottom: 8px;
+  }
 
   .title {
     font-weight: bold;
@@ -66,4 +72,8 @@ svg {
 .credit {
   text-transform: uppercase;
   font-size: 10px;
+
+  @media @break {
+    text-align: right;
+  }
 }
