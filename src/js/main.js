@@ -122,7 +122,7 @@ var colors = {
     light: "#fcbb75",
     dark: "#f36f21"
   },
-  "Physical and mental health services": {
+  "Physical / mental health services": {
     light: "#ffe4b6",
     dark: "#ffc02d"
   },
@@ -192,6 +192,7 @@ var onHoverOrClick = function(d, target) {
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),
+    category: d.category,
     wording: d.type == "provider" ? "distributed" : "received"
   };
   if (d.type == "organization") {

@@ -50,7 +50,7 @@
     "amount": "121",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
@@ -59,7 +59,7 @@
     "amount": "3119",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
@@ -113,7 +113,7 @@
     "amount": "66000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
@@ -176,7 +176,7 @@
     "amount": "519",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
@@ -221,7 +221,7 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
@@ -356,7 +356,7 @@
     "amount": "100000",
     "provider": "Red Cross",
     "services": "Full-time school counselor for two years",
-    "category": "Physical and mental health services",
+    "category": "Physical / mental health services",
     "multiple": ""
   },
   {
