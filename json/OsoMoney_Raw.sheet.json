@@ -137,7 +137,7 @@
   {
     "title": "Arlington Family Resource Project Housing Program",
     "organization": "Arlington Family Resource Project Housing Program",
-    "amount": "670000",
+    "amount": "107,000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Aid to victims who lost primary residence, $30,000 per family for up to 24 months",
     "purpose": "",
@@ -479,7 +479,7 @@
   {
     "title": "Darrington School District",
     "organization": "Darrington School District",
-    "amount": "11750",
+    "amount": "5000",
     "provider": "United Way",
     "services": "Sending 30 children to Camp Arnold in Eatonville",
     "purpose": "",
@@ -524,7 +524,7 @@
   {
     "title": "North Counties Family Services",
     "organization": "North Counties Family Services",
-    "amount": "200000",
+    "amount": "300000",
     "provider": "United Way",
     "services": "Emergency cash allotments, housing, child care, commuting for Darrington families",
     "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
@@ -542,7 +542,7 @@
   {
     "title": "North Counties Family Services",
     "organization": "North Counties Family Services",
-    "amount": "25000",
+    "amount": "200000",
     "provider": "United Way",
     "services": "Extra costs",
     "purpose": "",
@@ -555,6 +555,33 @@
     "provider": "United Way",
     "services": "Extra costs related to slide response",
     "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
+    "category": ""
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "57204.29",
+    "provider": "United Way",
+    "services": "Agency operating costs",
+    "purpose": "",
+    "category": ""
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "55000",
+    "provider": "United Way",
+    "services": "Agency operating costs",
+    "purpose": "",
+    "category": ""
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "25000",
+    "provider": "United Way",
+    "services": "Extra costs",
+    "purpose": "",
     "category": ""
   },
   {
@@ -587,10 +614,28 @@
   {
     "title": "Salvation Army",
     "organization": "Salvation Army",
+    "amount": "57204.29",
+    "provider": "United Way",
+    "services": "Disaster Case Manager",
+    "purpose": "A religious and social service organization, a branch of the Christian Church dedicated to the battle against sin and despair",
+    "category": ""
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
     "amount": "50000",
     "provider": "United Way",
     "services": "Support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
-    "purpose": "A religious and social service organization, a branch of the Christian Church dedicated to the battle against sin and despair",
+    "purpose": "",
+    "category": ""
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "amount": "11750",
+    "provider": "United Way",
+    "services": "Sending 30 children to Camp Arnold in Eatonville",
+    "purpose": "",
     "category": ""
   },
   {
@@ -603,20 +648,20 @@
     "category": ""
   },
   {
+    "title": "WorkForce Snohomish",
+    "organization": "WorkForce Snohomish",
+    "amount": "17990",
+    "provider": "United Way",
+    "services": "Parks restoration project",
+    "purpose": "",
+    "category": ""
+  },
+  {
     "title": "Union Bank",
     "organization": "Union Bank",
     "amount": "250",
     "provider": "United Way",
     "services": "Gas cards",
-    "purpose": "",
-    "category": ""
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "$300,000",
-    "provider": "United Way",
-    "services": "Ongoing needs",
     "purpose": "",
     "category": ""
   }

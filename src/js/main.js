@@ -81,8 +81,6 @@ var links = osoData.map(function(row) {
 var force = d3.layout.force()
     .charge(function(d) { return -1 * Math.log(d.amount/500) * 3 * 20 })
     .linkDistance(40)
-    // .friction(.3)
-    // .linkStrength(.3)
     .gravity(0.25)
     .size([width, height]);
 
@@ -94,6 +92,7 @@ force.nodes(nodes);
 force.links(links);
 force.start();
 
+// Links
 var link = svg.selectAll(".link")
   .data(links)
   .enter().append("line")
@@ -102,12 +101,14 @@ var link = svg.selectAll(".link")
   .style("stroke-opacity", .7)
   .style("marker-end",  "url(#suit)");
 
+// Nodes
 var node = svg.selectAll(".node")
   .data(nodes)
   .enter().append("g")
   .attr("class", "node")
   .call(force.drag);
 
+// Circles
 node.append("circle")
   .attr("r", function(d) { 
     var size = Math.log(d.amount/500) * 2;
@@ -124,6 +125,7 @@ node.append("circle")
     onHoverOrClick(d, this);
   });
 
+// Titles
 node.append("text")
   .attr("dx", "0")
   .attr("dy", ".35em")
@@ -166,6 +168,5 @@ force.on("tick", function () {
       .attr("cy", function (d) { return d.y; });
   d3.selectAll("text").attr("x", function (d) { return d.x; })
       .attr("y", function (d) { return d.y; });
-  // node.each(collide(0.5));
 });
 
