@@ -147,9 +147,10 @@ var colors = {
 // Circles
 node.append("circle")
   .attr("r", function(d) { 
+    console.log(d.organization, d.amount)
     var size = Math.log(d.amount/500) * 2;
     if (size < 3) { size = 3 }
-    return d.type == "organization" ? size : Math.log(d.amount/100) * 3
+    return d.type == "organization" ? size : Math.log(d.amount/700)*3
   })
   .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
   .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "white" })
@@ -186,7 +187,7 @@ var onHoverOrClick = function(d, target) {
     .style("stroke-width", 1);
   d3.select(target)
     .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#ca6951" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "#888" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "#BBB" })
     .style("stroke-width", 3);
   var options = {
     name: d.organization, 
