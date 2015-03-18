@@ -63,8 +63,7 @@ osoData.forEach(function(row) {
   // need object keyed by organization for info panel
   if (!contributions[row.organization]) { contributions[row.organization] = {} }
   contributions[row.organization][row.provider] = {
-    amount: formatNumber(row.amount).toString(),
-    services: row.services
+    amount: formatNumber(row.amount).toString()
   };
 });
 
@@ -155,7 +154,7 @@ node.append("circle")
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : Math.log(d.amount/700)*3
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
+  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#CCC" })
   .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
   
   .on("click", function(d) { 
@@ -176,7 +175,7 @@ node.append("text")
 
 // set up initial panel info
 document.getElementById("panel").innerHTML = ich.panel( {
-  name: "2014 Oso Charitable Donations", 
+  name: "Overview", 
   amount: formatNumber(totalAmount).toString(),
   cascade: {amount: formatNumber(providers["Cascade Valley Hospital Foundation"].amount).toString()},
   redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
@@ -185,11 +184,11 @@ document.getElementById("panel").innerHTML = ich.panel( {
 
 var onHoverOrClick = function(d, target) {
   node.selectAll("circle")
-    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
+    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#CCC" })
     .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
     .style("stroke-width", 1);
   d3.select(target)
-    .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#ca6951" })
+    .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#CCC" })
     .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#BBB" })
     .style("stroke-width", 3);
   var options = {
@@ -198,12 +197,11 @@ var onHoverOrClick = function(d, target) {
     wording: d.type == "provider" ? "distributed" : "received"
   };
   if (d.type == "organization") {
-    console.log(d.categories)
     var arr = [];
     d.categories.forEach(function(category){
       arr.push({
         category: category, 
-        color: colors[category].dark
+        color: colors[category].light
       })
     });
     options.categories = arr;
@@ -211,7 +209,7 @@ var onHoverOrClick = function(d, target) {
     options.redcross = contributions[d.organization]["Red Cross"];
     options.united = contributions[d.organization]["United Way"];
   } else {
-    options.categories = [{ category: "Distributor", color: "#ca6951"}];
+    options.categories = [{ category: "Distributor", color: "#CCC"}];
   }
   document.getElementById("panel").innerHTML = ich.panel( options );
 };
