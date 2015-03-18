@@ -40,6 +40,7 @@ osoData.forEach(function(row) {
       organization: row.organization, 
       amount: 0, 
       type: "organization",
+      category: row.category,
       x: width / 2,
       y: height / 2
     };
@@ -108,15 +109,50 @@ var node = svg.selectAll(".node")
   .attr("class", "node")
   .call(force.drag);
 
+var colors = {
+  "Family and community services": {
+    light: "#b5bfa9",
+    dark: "#798f71"
+  },
+  "Disaster relief": {
+    light: "#d5e4f0",
+    dark: "#7baddc"
+  },
+  "Youth programs": {
+    light: "#fcbb75",
+    dark: "#f36f21"
+  },
+  "Physical and mental health services": {
+    light: "#ffe4b6",
+    dark: "#ffc02d"
+  },
+  "Funeral costs": {
+    light: "#c7bbdc",
+    dark: "#7b5aa6"
+  },
+  "Economic development": {
+    light: "#a0c5c7",
+    dark: "#008778"
+  },
+  "Misc.": {
+    light: "#d5dae5",
+    dark: "#728cab"
+  },
+  "Multiple": {
+    light: "#dcddde",
+    dark: "#b2b3b6"
+  },
+}
+
 // Circles
 node.append("circle")
   .attr("r", function(d) { 
     var size = Math.log(d.amount/500) * 2;
     if (size < 3) { size = 3 }
-    return d.type == "organization" ? size : 25 
+    return d.type == "organization" ? size : Math.log(d.amount/100) * 3
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#e5af9b" })
-  .style("stroke", "white")
+  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
+  .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "white" })
   
   .on("click", function(d) { 
     onHoverOrClick(d, this);
@@ -144,8 +180,14 @@ document.getElementById("panel").innerHTML = ich.panel( {
 } );
 
 var onHoverOrClick = function(d, target) {
-  node.selectAll("circle").style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#e5af9b" });
-  d3.select(target).style("fill", function(d) { return d.type == "organization" ? "#f36f21" : "#ca6951" });
+  node.selectAll("circle")
+    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "white" })
+    .style("stroke-width", 1);
+  d3.select(target)
+    .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#ca6951" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "#888" })
+    .style("stroke-width", 3);
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),

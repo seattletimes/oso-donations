@@ -5,8 +5,8 @@
     "amount": "180970",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Direct aid to families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Arlington Fire Department",
@@ -14,8 +14,8 @@
     "amount": "50000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Arlington Rural Fire Department No. 21",
@@ -23,8 +23,8 @@
     "amount": "25000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Burlington Fire Department",
@@ -32,8 +32,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Camp Fire Snohomish County",
@@ -41,8 +41,8 @@
     "amount": "21000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "Provide young people identify their sparks, adopt growth mindsets, reflect on the indicators of thriving and build goal management skills.",
-    "category": ""
+    "category": "Youth programs",
+    "multiple": ""
   },
   {
     "title": "Cascade Radiology",
@@ -50,8 +50,8 @@
     "amount": "121",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "purpose": "",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Cascade Valley Hospital",
@@ -59,8 +59,8 @@
     "amount": "3119",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "purpose": "",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Catholic Community Services",
@@ -68,8 +68,8 @@
     "amount": "75000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Funeral costs",
-    "purpose": "Multi-service social service organization providing programs and services to low-income children, families in Western Washington. Services are provided without regard to race or religious affiliation.",
-    "category": ""
+    "category": "Funeral costs",
+    "multiple": ""
   },
   {
     "title": "City of Darrington",
@@ -77,8 +77,8 @@
     "amount": "1500",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Concrete Fire Department",
@@ -86,8 +86,8 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Conway Fire Department",
@@ -95,8 +95,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Darrington Fire Department",
@@ -104,8 +104,8 @@
     "amount": "50000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Darrington Public Schools",
@@ -113,8 +113,8 @@
     "amount": "66000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Gift cards",
@@ -122,8 +122,8 @@
     "amount": "5695",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Green Cross Academy",
@@ -131,8 +131,8 @@
     "amount": "49000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Misc.",
+    "multiple": ""
   },
   {
     "title": "Arlington Family Resource Project Housing Program",
@@ -140,8 +140,8 @@
     "amount": "107000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Aid to victims who lost primary residence, $30,000 per family for up to 24 months",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Kids' Kloset",
@@ -149,8 +149,8 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Misc.",
+    "multiple": ""
   },
   {
     "title": "Marblemount Fire Department",
@@ -158,8 +158,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "North Counties Family Services",
@@ -167,8 +167,8 @@
     "amount": "50216",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Direct aid to families",
-    "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "NW Emergency Physicians",
@@ -176,8 +176,8 @@
     "amount": "519",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "purpose": "",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Oso Community Center",
@@ -185,8 +185,8 @@
     "amount": "5000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Oso Community Chapel",
@@ -194,8 +194,8 @@
     "amount": "75000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Assist small businesses affected by mudslide, provided lump sums to those who had suffered loss and to Oso firemen, provide summer camp scholarships",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Oso Volunteer Fire Department",
@@ -203,8 +203,8 @@
     "amount": "50000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "First responder support",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Post Middle School PTSA",
@@ -212,8 +212,8 @@
     "amount": "6089",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Arlington-Darrington middle school unity social event",
-    "purpose": "",
-    "category": ""
+    "category": "Youth programs",
+    "multiple": ""
   },
   {
     "title": "Safe Harbor Free Clinic",
@@ -221,8 +221,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "Free medical clinic",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Sedro-Wooley Fire Department",
@@ -230,8 +230,8 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Silvana Fire Department",
@@ -239,8 +239,8 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Skagit County Fire District No. 6",
@@ -248,8 +248,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Skagit County Fire District No. 8",
@@ -257,8 +257,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Skagit Fire District No. 2",
@@ -266,8 +266,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Snohomish County K9 Unit",
@@ -275,8 +275,8 @@
     "amount": "40000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Snohomish County Legal Services",
@@ -284,8 +284,8 @@
     "amount": "12500",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "A free legal aid program serving Snohomish County residents experiencing poverty.",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Snohomish County Search and Rescue",
@@ -293,8 +293,8 @@
     "amount": "100000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "The Soup Ladies",
@@ -302,8 +302,8 @@
     "amount": "25000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "Provide fresh cooked meals expeditiously to support first responders",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "WorkForce Snohomish",
@@ -311,8 +311,8 @@
     "amount": "48000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Economic development",
+    "multiple": ""
   },
   {
     "title": "Stanwood-Camano Incident Support",
@@ -320,8 +320,8 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Arlington Food Bank",
@@ -329,17 +329,17 @@
     "amount": "25000",
     "provider": "Red Cross",
     "services": "Replenish food bank stock",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Catholic Community Services",
     "organization": "Catholic Community Services",
     "amount": "100000",
     "provider": "Red Cross",
-    "services": "",
-    "purpose": "Multi-service social service organization providing programs and services to low-income children, families in Western Washington. Services are provided without regard to race or religious affiliation.",
-    "category": ""
+    "services": "Disaster case manager support",
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Darrington Community Center",
@@ -347,8 +347,8 @@
     "amount": "30000",
     "provider": "Red Cross",
     "services": "Improve community buildings",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Darrington School District",
@@ -356,8 +356,8 @@
     "amount": "100000",
     "provider": "Red Cross",
     "services": "Full-time school counselor for two years",
-    "purpose": "",
-    "category": ""
+    "category": "Physical and mental health services",
+    "multiple": ""
   },
   {
     "title": "Salvation Army",
@@ -365,8 +365,17 @@
     "amount": "100000",
     "provider": "Red Cross",
     "services": "Ongoing casework",
-    "purpose": "A religious and social service organization, a branch of the Christian Church dedicated to the battle against sin and despair",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
+  },
+  {
+    "title": "Red Cross",
+    "organization": "Red Cross",
+    "amount": "3727000",
+    "provider": "Red Cross",
+    "services": "Emergency food, shelter, relief items, physical and mental health services, individual recovery planning and assistance, disaster preparedness and community rebuilding",
+    "category": "Multiple",
+    "multiple": "Disaster relief; Physical and mental health services; Family and community services"
   },
   {
     "title": "American Red Cross of Snohomish County",
@@ -374,17 +383,17 @@
     "amount": "25000",
     "provider": "United Way",
     "services": "Donor designation to local chapter",
-    "purpose": "Provide relief to victims of disasters and help people prevent, prepare for and respond to emergencies.",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Arlington Family Resource Project",
     "organization": "Arlington Family Resource Project",
     "amount": "600000",
     "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families",
-    "purpose": "Temporary fund to address immediate needs of community",
-    "category": ""
+    "services": "Emergency cash allotments, housing, child care, commuting for Oso families, start-up costs for Stanwood Camano Resource Center, and extra costs related to slide response",
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Camp Fire USA: Snohomish County Council",
@@ -392,8 +401,8 @@
     "amount": "24750",
     "provider": "United Way",
     "services": "Sending 50 children from Darrington to Camp Killoqua",
-    "purpose": "Provide young people identify their sparks, adopt growth mindsets, reflect on the indicators of thriving and build goal management skills.",
-    "category": ""
+    "category": "Youth programs",
+    "multiple": ""
   },
   {
     "title": "Catholic Community Services",
@@ -401,8 +410,8 @@
     "amount": "53000",
     "provider": "United Way",
     "services": "Gas cards, support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
-    "purpose": "Multi-service social service organization providing programs and services to low-income children, families in Western Washington. Services are provided without regard to race or religious affiliation.",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Darrington School District",
@@ -410,8 +419,8 @@
     "amount": "15000",
     "provider": "United Way",
     "services": "Promoting youth sports, sending 30 children to Camp Arnold in Eatonville",
-    "purpose": "",
-    "category": ""
+    "category": "Youth programs",
+    "multiple": ""
   },
   {
     "title": "Economic Alliance Snohomish County",
@@ -419,8 +428,8 @@
     "amount": "15000",
     "provider": "United Way",
     "services": "Work with mayors of Arlington, Darrington and other local leaders on ecoconomic development plan",
-    "purpose": "Economic development",
-    "category": ""
+    "category": "Economic development",
+    "multiple": ""
   },
   {
     "title": "Green Cross Academy",
@@ -428,26 +437,17 @@
     "amount": "3000",
     "provider": "United Way",
     "services": "Trauma support",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Hampton Mill in Darrington",
     "organization": "Hampton Mill in Darrington",
-    "amount": "75000",
+    "amount": "150000",
     "provider": "United Way",
-    "services": "Parternship with WDOC, covers extra fuel costs for truckers",
-    "purpose": "",
-    "category": ""
-  },
-  {
-    "title": "Hampton Mill in Darrington",
-    "organization": "Hampton Mill in Darrington",
-    "amount": "75000",
-    "provider": "United Way",
-    "services": "Parternship with WDOC, covers extra fuel costs for truckers",
-    "purpose": "",
-    "category": ""
+    "services": "Partnership with WDOC, covers extra fuel costs for truckers",
+    "category": "Misc.",
+    "multiple": ""
   },
   {
     "title": "North Counties Family Services",
@@ -455,8 +455,8 @@
     "amount": "862204",
     "provider": "United Way",
     "services": "Emergency cash allotments, housing, child care, commuting for Darrington families, agency operating costs, extra costs related to slide response",
-    "purpose": "Support local community through counseling services, county services, prevention and youth and family activities.",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "North Sound Society of St. Vincent de Paul",
@@ -464,8 +464,8 @@
     "amount": "20000",
     "provider": "United Way",
     "services": "\"Houses in a box\"",
-    "purpose": "Provide services to those in need of regardless of any barrier. We are a Catholic Lay Organization focusing on service to the poor.",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "Oso Fire District",
@@ -473,8 +473,8 @@
     "amount": "25000",
     "provider": "United Way",
     "services": "Extra costs related to slide response",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Oso Firemen's Association Mudslide Fund",
@@ -482,8 +482,8 @@
     "amount": "75000",
     "provider": "United Way",
     "services": "Support for Oso families",
-    "purpose": "",
-    "category": ""
+    "category": "Disaster relief",
+    "multiple": ""
   },
   {
     "title": "Salvation Army",
@@ -491,8 +491,8 @@
     "amount": "118954",
     "provider": "United Way",
     "services": "Support for disaster case manager to help survivors identify needs and work with nonprofits and government agencies, sending 30 children to Camp Arnold in Eatonville",
-    "purpose": "A religious and social service organization, a branch of the Christian Church dedicated to the battle against sin and despair",
-    "category": ""
+    "category": "Multiple",
+    "multiple": "Family and community services; Youth programs"
   },
   {
     "title": "Town of Darrington",
@@ -500,8 +500,8 @@
     "amount": "25000",
     "provider": "United Way",
     "services": "Extra costs related to slide response",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   },
   {
     "title": "WorkForce Snohomish",
@@ -509,8 +509,8 @@
     "amount": "17990",
     "provider": "United Way",
     "services": "Parks restoration project",
-    "purpose": "",
-    "category": ""
+    "category": "Economic development",
+    "multiple": ""
   },
   {
     "title": "Union Bank",
@@ -518,7 +518,7 @@
     "amount": "250",
     "provider": "United Way",
     "services": "Gas cards",
-    "purpose": "",
-    "category": ""
+    "category": "Family and community services",
+    "multiple": ""
   }
 ]
