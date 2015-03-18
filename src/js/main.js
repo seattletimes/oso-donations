@@ -40,12 +40,20 @@ osoData.forEach(function(row) {
       organization: row.organization, 
       amount: 0, 
       type: "organization",
-      category: row.category,
+      categories: [],
       x: width / 2,
       y: height / 2
     };
   }
   organizations[row.organization].amount += row.amount;
+  if (organizations[row.organization].categories.indexOf(row.category) < 0 ) {
+    organizations[row.organization].categories.push(row.category);
+  }
+  if (row.multiples) {
+    row.multiples.split("; ").forEach(function(multiple) {
+      organizations[row.organization].categories.push(multiple);
+    })
+  }
 
   var p = providers[row.provider];
   if (p) {
@@ -57,7 +65,7 @@ osoData.forEach(function(row) {
   contributions[row.organization][row.provider] = {
     amount: formatNumber(row.amount).toString(),
     services: row.services
-  }
+  };
 });
 
 var nodes = [];
@@ -110,7 +118,7 @@ var node = svg.selectAll(".node")
   .call(force.drag);
 
 var colors = {
-  "Family and community services": {
+  "Family & community services": {
     light: "#b5bfa9",
     dark: "#798f71"
   },
@@ -134,26 +142,21 @@ var colors = {
     light: "#a0c5c7",
     dark: "#008778"
   },
-  "Misc.": {
-    light: "#d5dae5",
-    dark: "#728cab"
-  },
-  "Multiple": {
+  "Miscellaneous": {
     light: "#dcddde",
     dark: "#b2b3b6"
-  },
+  }
 }
 
 // Circles
 node.append("circle")
   .attr("r", function(d) { 
-    console.log(d.organization, d.amount)
     var size = Math.log(d.amount/500) * 2;
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : Math.log(d.amount/700)*3
   })
   .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
-  .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "white" })
+  .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
   
   .on("click", function(d) { 
     onHoverOrClick(d, this);
@@ -183,25 +186,32 @@ document.getElementById("panel").innerHTML = ich.panel( {
 var onHoverOrClick = function(d, target) {
   node.selectAll("circle")
     .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#e5af9b" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "white" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
     .style("stroke-width", 1);
   d3.select(target)
     .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#ca6951" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.category].dark : "#BBB" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#BBB" })
     .style("stroke-width", 3);
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),
-    category: d.category,
     wording: d.type == "provider" ? "distributed" : "received"
   };
   if (d.type == "organization") {
+    console.log(d.categories)
+    var arr = [];
+    d.categories.forEach(function(category){
+      arr.push({
+        category: category, 
+        color: colors[category].dark
+      })
+    });
+    options.categories = arr;
     options.cascade = contributions[d.organization]["Cascade Valley Hospital Foundation"];
     options.redcross = contributions[d.organization]["Red Cross"];
     options.united = contributions[d.organization]["United Way"];
-    document.getElementById("panel").className = "organization";
   } else {
-    document.getElementById("panel").className = "provider";
+    options.categories = [{ category: "Distributor", color: "#ca6951"}];
   }
   document.getElementById("panel").innerHTML = ich.panel( options );
 };
