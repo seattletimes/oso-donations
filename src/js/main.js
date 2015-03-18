@@ -115,7 +115,7 @@ node.append("circle")
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : 25 
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" })
+  .style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#e5af9b" })
   .style("stroke", "white")
   
   .on("click", function(d) { 
@@ -144,8 +144,8 @@ document.getElementById("panel").innerHTML = ich.panel( {
 } );
 
 var onHoverOrClick = function(d, target) {
-  node.selectAll("circle").style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#95b5df" });
-  d3.select(target).style("fill", function(d) { return d.type == "organization" ? "#f36f21" : "#2384c6" });
+  node.selectAll("circle").style("fill", function(d) { return d.type == "organization" ? "#fcbc85" : "#e5af9b" });
+  d3.select(target).style("fill", function(d) { return d.type == "organization" ? "#f36f21" : "#ca6951" });
   var options = {
     name: d.organization, 
     amount: formatNumber(d.amount).toString(),
