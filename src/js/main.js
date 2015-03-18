@@ -197,6 +197,9 @@ var onHoverOrClick = function(d, target) {
     options.cascade = contributions[d.organization]["Cascade Valley Hospital Foundation"];
     options.redcross = contributions[d.organization]["Red Cross"];
     options.united = contributions[d.organization]["United Way"];
+    document.getElementById("panel").className = "organization";
+  } else {
+    document.getElementById("panel").className = "provider";
   }
   document.getElementById("panel").innerHTML = ich.panel( options );
 };

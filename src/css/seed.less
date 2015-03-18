@@ -56,7 +56,6 @@ svg {
 }
 
 #panel {
-  background: #f3f3f3;
   border-radius: 4px;
   font-size: 16px;
   margin: 15px 0;
@@ -64,6 +63,13 @@ svg {
 
   @media @break {
     margin-bottom: 8px;
+  }
+
+  &.provider {
+    background: #f6e6e0;
+  }
+  &.organization {
+    background: #f3f3f3;
   }
 
   .title {
@@ -74,7 +80,7 @@ svg {
     padding-top: 5px;
   }
 
-  .provider {
+  .provider-name {
     font-size: 14px;
     padding-top: 5px;
   }
