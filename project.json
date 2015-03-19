@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": "oso-donations"
+      "path": "2015/oso-donations"
     }
   },
   "title": "Distribution of 2014 Oso Charitable Donations",
@@ -14,5 +14,5 @@
   "url": "",
   "slug": "",
   "tags": [],
-  "production": false
+  "production": true
 }

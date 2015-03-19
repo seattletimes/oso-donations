@@ -189,7 +189,7 @@ var onHoverOrClick = function(d, target) {
     .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].light : "#EEE" })
     .style("stroke-width", 1)
   d3.select(target)
-    .style("stroke", "#555")
+    .style("stroke", "#666")
     .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#AAA" })
     .style("stroke-width", 3);
   var options = {
