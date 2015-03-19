@@ -375,7 +375,7 @@
     "provider": "Red Cross",
     "services": "Emergency food, shelter, relief items, physical and mental health services, individual recovery planning and assistance, disaster preparedness and community rebuilding",
     "category": "Family & community services",
-    "multiples": ""
+    "multiples": "Physical / mental health services; Disaster relief"
   },
   {
     "title": "Safe Harbor Free Clinic",
@@ -384,7 +384,7 @@
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
     "category": "Physical / mental health services",
-    "multiples": "Physical / mental health services; Disaster relief"
+    "multiples": ""
   },
   {
     "title": "Salvation Army",
@@ -393,7 +393,7 @@
     "provider": "United Way",
     "services": "Support for disaster case manager to help survivors identify needs and work with nonprofits and government agencies, sending 30 children to Camp Arnold in Eatonville",
     "category": "Family & community services",
-    "multiples": ""
+    "multiples": "Youth programs"
   },
   {
     "title": "Salvation Army",
@@ -501,7 +501,7 @@
     "provider": "United Way",
     "services": "Extra costs related to slide response",
     "category": "Family & community services",
-    "multiples": "Youth programs"
+    "multiples": ""
   },
   {
     "title": "Union Bank",

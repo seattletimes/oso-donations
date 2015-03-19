@@ -1,11 +1,5 @@
 <div class='title'>{{name}}</div>
 
-{{#cascade}}
-  <div class='provider-name'>
-    Cascade Valley Hospital Foundation: ${{cascade.amount}}
-  </div>
-{{/cascade}}
-
 {{#redcross}}
   <div class='provider-name'>
     Red Cross: ${{redcross.amount}}
@@ -18,7 +12,11 @@
   </div>
 {{/united}}
 
-
+{{#cascade}}
+  <div class='provider-name'>
+    Cascade Valley Hospital Foundation: ${{cascade.amount}}
+  </div>
+{{/cascade}}
 
 <div class="total">Total {{wording}}: ${{amount}}</div>
 

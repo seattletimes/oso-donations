@@ -118,16 +118,16 @@ var node = svg.selectAll(".node")
 
 var colors = {
   "Family & community services": {
-    light: "#c7bbdc",
-    dark: "#856ea8"
+    light: "#ffe4b6",
+    dark: "#fecd5b"
   },
   "Disaster relief": {
     light: "#e5af9b",
     dark: "#ca6951"
   },
   "Youth programs": {
-    light: "#d8decd",
-    dark: "#749783"
+    light: "#9ec2a6",
+    dark: "#2a9964"
   },
   "Physical / mental health services": {
     light: "#95b5df",
