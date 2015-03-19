@@ -5,11 +5,11 @@
       "path": "muddy-glade"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "oso-donations"
     }
   },
-  "title": "",
+  "title": "Distribution of 2014 Oso Charitable Donations",
   "description": "",
   "url": "",
   "slug": "",

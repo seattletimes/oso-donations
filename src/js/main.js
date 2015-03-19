@@ -118,20 +118,20 @@ var node = svg.selectAll(".node")
 
 var colors = {
   "Family & community services": {
-    light: "#ffe4b6",
-    dark: "#fecd5b"
+    light: "#c7bbdc",
+    dark: "#7b5aa6"
   },
   "Disaster relief": {
-    light: "#e5af9b",
-    dark: "#ca6951"
+    light: "#fcbb75",
+    dark: "#f36f21"
   },
   "Youth programs": {
     light: "#9ec2a6",
     dark: "#2a9964"
   },
   "Physical / mental health services": {
-    light: "#95b5df",
-    dark: "#2384c6"
+    light: "#a2cbe5",
+    dark: "#3887ba"
   }
 }
 
@@ -142,8 +142,8 @@ node.append("circle")
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : Math.log(d.amount/700)*3
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
-  .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
+  .style("stroke", "white")
+  .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].light : "#EEE" })
   .style("stroke-width", 1)
 
   .on("click", function(d) { 
@@ -156,9 +156,9 @@ node.append("circle")
 svg.on("mouseleave", function(d) {
   initPanel();
   node.selectAll("circle")
-    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
-    .style("stroke-width", 1);
+    .style("stroke", "white")
+    .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].light : "#EEE" })
+    .style("stroke-width", 1)
 })
 
 // Titles
@@ -185,12 +185,12 @@ initPanel();
 
 var onHoverOrClick = function(d, target) {
   node.selectAll("circle")
-    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
-    .style("stroke-width", 1);
+    .style("stroke", "white")
+    .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].light : "#EEE" })
+    .style("stroke-width", 1)
   d3.select(target)
-    .style("fill", "#AAA")
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#777" })
+    .style("stroke", "#555")
+    .style("fill", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#AAA" })
     .style("stroke-width", 3);
   var options = {
     name: d.organization, 
