@@ -8,6 +8,7 @@
     <%= t.include("partials/_adHead.html") %>
   </head>
   <body>
+    <responsive-child>
     <div class="headline">Distribution of 2014 Oso Charitable Donations</div>
     <div class='graphic'></div>
     <div class='text'>
@@ -16,6 +17,8 @@
       <div class="sources">Sources: Red Cross, United Way and Cascade Valley Hospital Foundation</div>
       <div class="credit">Audrey Carlsen / The Seattle Times</div>
     </div>
+    <div style="clear:both"></div>
+    </responsive-child>
 
     <script>
       var osoData = window.osoData = <%= JSON.stringify(json.OsoMoney_Clean) %>;

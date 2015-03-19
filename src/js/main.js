@@ -3,6 +3,7 @@ require("./lib/social");
 require("./lib/ads");
 var d3 = require("d3");
 var ich = require("icanhaz");
+require("component-responsive-frame/child");
 
 var panelHTML = require("./_panel.html");
 ich.addTemplate("panel", panelHTML);
