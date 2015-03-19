@@ -68,7 +68,7 @@
     "amount": "75000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Funeral costs",
-    "category": "Funeral costs",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -131,7 +131,7 @@
     "amount": "49000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Miscellaneous",
+    "category": "Physical / mental health services",
     "multiples": ""
   },
   {
@@ -149,7 +149,7 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Miscellaneous",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -311,7 +311,7 @@
     "amount": "48000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Economic development",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -437,7 +437,7 @@
     "amount": "15000",
     "provider": "United Way",
     "services": "Work with mayors of Arlington, Darrington and other local leaders on ecoconomic development plan",
-    "category": "Economic development",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -455,7 +455,7 @@
     "amount": "150000",
     "provider": "United Way",
     "services": "Partnership with WDOC, covers extra fuel costs for truckers",
-    "category": "Miscellaneous",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -518,7 +518,7 @@
     "amount": "17990",
     "provider": "United Way",
     "services": "Parks restoration project",
-    "category": "Economic development",
+    "category": "Family & community services",
     "multiples": ""
   },
   {

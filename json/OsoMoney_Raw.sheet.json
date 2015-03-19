@@ -61,7 +61,7 @@
     "amount": "75000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Funeral costs",
-    "category": "Funeral costs"
+    "category": "Family and community services"
   },
   {
     "title": "City of Darrington",
@@ -117,7 +117,7 @@
     "amount": "49000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Misc."
+    "category": "Physical and mental health services"
   },
   {
     "title": "Arlington Family Resource Project Housing Program",
@@ -133,7 +133,7 @@
     "amount": "15000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Misc."
+    "category": "Family and community services"
   },
   {
     "title": "Marblemount Fire Department",
@@ -277,7 +277,7 @@
     "amount": "48000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Economic development"
+    "category": "Family and community services"
   },
   {
     "title": "Stanwood-Camano Incident Support",
@@ -477,7 +477,7 @@
     "amount": "15000",
     "provider": "United Way",
     "services": "Work with mayors of Arlington, Darrington and other local leaders on ecoconomic development plan",
-    "category": "Economic development"
+    "category": "Family and community services"
   },
   {
     "title": "Green Cross Academy",
@@ -493,7 +493,7 @@
     "amount": "75000",
     "provider": "United Way",
     "services": "Partnership with WDOC, covers extra fuel costs for truckers",
-    "category": "Misc."
+    "category": "Family and community services"
   },
   {
     "title": "Hampton Mill in Darrington",
@@ -501,7 +501,7 @@
     "amount": "75000",
     "provider": "United Way",
     "services": "Partnership with WDOC, covers extra fuel costs for truckers",
-    "category": "Misc."
+    "category": "Family and community services"
   },
   {
     "title": "North Counties Family Services",
@@ -621,7 +621,7 @@
     "amount": "17990",
     "provider": "United Way",
     "services": "Parks restoration project",
-    "category": "Economic development"
+    "category": "Family and community services"
   },
   {
     "title": "Union Bank",

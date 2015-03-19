@@ -118,32 +118,20 @@ var node = svg.selectAll(".node")
 
 var colors = {
   "Family & community services": {
-    light: "#b5bfa9",
-    dark: "#798f71"
+    light: "#c7bbdc",
+    dark: "#856ea8"
   },
   "Disaster relief": {
-    light: "#d5e4f0",
-    dark: "#7baddc"
+    light: "#e5af9b",
+    dark: "#ca6951"
   },
   "Youth programs": {
-    light: "#fcbb75",
-    dark: "#f36f21"
+    light: "#d8decd",
+    dark: "#749783"
   },
   "Physical / mental health services": {
-    light: "#ffe4b6",
-    dark: "#ffc02d"
-  },
-  "Funeral costs": {
-    light: "#c7bbdc",
-    dark: "#7b5aa6"
-  },
-  "Economic development": {
-    light: "#a0c5c7",
-    dark: "#008778"
-  },
-  "Miscellaneous": {
-    light: "#dcddde",
-    dark: "#b2b3b6"
+    light: "#95b5df",
+    dark: "#2384c6"
   }
 }
 
@@ -164,6 +152,10 @@ node.append("circle")
     onHoverOrClick(d, this);
   });
 
+svg.on("mouseleave", function() {
+  initPanel();
+})
+
 // Titles
 node.append("text")
   .attr("dx", "0")
@@ -174,13 +166,17 @@ node.append("text")
   });
 
 // set up initial panel info
-document.getElementById("panel").innerHTML = ich.panel( {
-  name: "Overview", 
-  amount: formatNumber(totalAmount).toString(),
-  cascade: {amount: formatNumber(providers["Cascade Valley Hospital Foundation"].amount).toString()},
-  redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
-  united: {amount: formatNumber(providers["United Way"].amount).toString()}
-} );
+var initPanel = function(){
+  document.getElementById("panel").innerHTML = ich.panel( {
+    name: "Overview", 
+    amount: formatNumber(totalAmount).toString(),
+    cascade: {amount: formatNumber(providers["Cascade Valley Hospital Foundation"].amount).toString()},
+    redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
+    united: {amount: formatNumber(providers["United Way"].amount).toString()}
+  });
+};
+
+initPanel();
 
 var onHoverOrClick = function(d, target) {
   node.selectAll("circle")
@@ -189,7 +185,7 @@ var onHoverOrClick = function(d, target) {
     .style("stroke-width", 1);
   d3.select(target)
     .style("fill", function(d) { return d.type == "organization" ? "#BBB" : "#CCC" })
-    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#BBB" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "#999" })
     .style("stroke-width", 3);
   var options = {
     name: d.organization, 

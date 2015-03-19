@@ -1,9 +1,4 @@
 <div class='title'>{{name}}</div>
-<div class="total">Total {{wording}}: ${{amount}}</div>
-
-{{#categories}}
-  <div class="category" style="background: {{color}}">{{category}}</div>
-{{/categories}}
 
 {{#cascade}}
   <div class='provider-name'>
@@ -22,3 +17,11 @@
     United Way: ${{united.amount}}
   </div>
 {{/united}}
+
+
+
+<div class="total">Total {{wording}}: ${{amount}}</div>
+
+{{#categories}}
+  <div class="category" style="background: {{color}}">{{category}}</div>
+{{/categories}}
