@@ -95,7 +95,7 @@
     "amount": "121",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -104,7 +104,7 @@
     "amount": "3119",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -131,15 +131,6 @@
     "amount": "53000",
     "provider": "United Way",
     "services": "Gas cards, support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "City of Darrington",
-    "organization": "City of Darrington",
-    "amount": "1500",
-    "provider": "Cascade Valley Hospital Foundation",
-    "services": "",
     "category": "Family & community services",
     "multiples": ""
   },
@@ -185,7 +176,7 @@
     "amount": "66000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -194,7 +185,7 @@
     "amount": "100000",
     "provider": "Red Cross",
     "services": "Full-time school counselor for two years",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -311,7 +302,7 @@
     "amount": "519",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Patient bills",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -369,13 +360,13 @@
     "multiples": ""
   },
   {
-    "title": "Red Cross",
-    "organization": "Red Cross",
+    "title": "Red Cross (spent directly)",
+    "organization": "Red Cross (spent directly)",
     "amount": "3727000",
     "provider": "Red Cross",
     "services": "Emergency food, shelter, relief items, physical and mental health services, individual recovery planning and assistance, disaster preparedness and community rebuilding",
     "category": "Family & community services",
-    "multiples": "Physical / mental health services; Disaster relief"
+    "multiples": "Physical & mental health services; Disaster relief"
   },
   {
     "title": "Safe Harbor Free Clinic",
@@ -383,7 +374,7 @@
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Physical / mental health services",
+    "category": "Physical & mental health services",
     "multiples": ""
   },
   {
@@ -492,6 +483,15 @@
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
     "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Town of Darrington",
+    "organization": "Town of Darrington",
+    "amount": "1500",
+    "provider": "Cascade Valley Hospital Foundation",
+    "services": "",
+    "category": "Family & community services",
     "multiples": ""
   },
   {

@@ -1,0 +1,21 @@
+<div class='default-title'>{{name}}</div>
+
+{{#redcross}}
+  <div class='default provider-name'>
+    Red Cross: <br><strong>${{redcross.amount}}</strong>
+  </div>
+{{/redcross}}
+
+{{#united}}
+  <div class='default provider-name'>
+    United Way: <br><strong>${{united.amount}}</strong>
+  </div>
+{{/united}}
+
+{{#cascade}}
+  <div class='default provider-name'>
+    Cascade Valley Hospital Foundation: <br><strong>${{cascade.amount}}</strong>
+  </div>
+{{/cascade}}
+
+<div class="total">Total:<br><strong>${{amount}}</strong></div>

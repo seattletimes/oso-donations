@@ -1,6 +1,8 @@
-<div class='title'>{{name}}</div>
+
+<div class='title'><strong>{{name}}</strong></div>
 
 {{#redcross}}
+
   <div class='provider-name'>
     Red Cross: ${{redcross.amount}}
   </div>
@@ -18,7 +20,7 @@
   </div>
 {{/cascade}}
 
-<div class="total">Total {{wording}}: ${{amount}}</div>
+<div class="total">Total {{wording}}:<br><strong>${{amount}}</strong></div>
 
 {{#categories}}
   <div class="category" style="background: {{color}}">{{category}}</div>

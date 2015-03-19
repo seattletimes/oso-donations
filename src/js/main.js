@@ -7,6 +7,8 @@ require("component-responsive-frame/child");
 
 var panelHTML = require("./_panel.html");
 ich.addTemplate("panel", panelHTML);
+var initPanelHTML = require("./_initPanel.html");
+ich.addTemplate("initPanel", initPanelHTML);
 
 var height = 380;
 var width = document.documentElement.clientWidth;
@@ -130,7 +132,7 @@ var colors = {
     light: "#9ec2a6",
     dark: "#2a9964"
   },
-  "Physical / mental health services": {
+  "Physical & mental health services": {
     light: "#a2cbe5",
     dark: "#3887ba"
   }
@@ -173,8 +175,8 @@ node.append("text")
 
 // set up initial panel info
 var initPanel = function(){
-  document.getElementById("panel").innerHTML = ich.panel( {
-    name: "Overview", 
+  document.getElementById("panel").innerHTML = ich.initPanel( {
+    name: "Funds distributed from:", 
     amount: formatNumber(totalAmount).toString(),
     cascade: {amount: formatNumber(providers["Cascade Valley Hospital Foundation"].amount).toString()},
     redcross: {amount: formatNumber(providers["Red Cross"].amount).toString()},
