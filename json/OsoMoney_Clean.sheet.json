@@ -1,5 +1,14 @@
 [
   {
+    "title": "American Red Cross of Snohomish County",
+    "organization": "American Red Cross of Snohomish County",
+    "amount": "25000",
+    "provider": "United Way",
+    "services": "Donor designation to local chapter",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
     "title": "Arlington Family Resource Project",
     "organization": "Arlington Family Resource Project",
     "amount": "180970",
@@ -9,11 +18,38 @@
     "multiples": ""
   },
   {
+    "title": "Arlington Family Resource Project",
+    "organization": "Arlington Family Resource Project",
+    "amount": "600000",
+    "provider": "United Way",
+    "services": "Emergency cash allotments, housing, child care, commuting for Oso families, start-up costs for Stanwood Camano Resource Center, and extra costs related to slide response",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
+    "title": "Arlington Family Resource Project Housing Program",
+    "organization": "Arlington Family Resource Project Housing Program",
+    "amount": "107000",
+    "provider": "Cascade Valley Hospital Foundation",
+    "services": "Aid to victims who lost primary residence, $30,000 per family for up to 24 months",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
     "title": "Arlington Fire Department",
     "organization": "Arlington Fire Department",
     "amount": "50000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Arlington Food Bank",
+    "organization": "Arlington Food Bank",
+    "amount": "25000",
+    "provider": "Red Cross",
+    "services": "Replenish food bank stock",
     "category": "Disaster relief",
     "multiples": ""
   },
@@ -45,6 +81,15 @@
     "multiples": ""
   },
   {
+    "title": "Camp Fire USA: Snohomish County Council",
+    "organization": "Camp Fire USA: Snohomish County Council",
+    "amount": "24750",
+    "provider": "United Way",
+    "services": "Sending 50 children from Darrington to Camp Killoqua",
+    "category": "Youth programs",
+    "multiples": ""
+  },
+  {
     "title": "Cascade Radiology",
     "organization": "Cascade Radiology",
     "amount": "121",
@@ -65,9 +110,27 @@
   {
     "title": "Catholic Community Services",
     "organization": "Catholic Community Services",
+    "amount": "100000",
+    "provider": "Red Cross",
+    "services": "Disaster case manager support",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
     "amount": "75000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "Funeral costs",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
+    "title": "Catholic Community Services",
+    "organization": "Catholic Community Services",
+    "amount": "53000",
+    "provider": "United Way",
+    "services": "Gas cards, support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
     "category": "Family & community services",
     "multiples": ""
   },
@@ -99,6 +162,15 @@
     "multiples": ""
   },
   {
+    "title": "Darrington Community Center",
+    "organization": "Darrington Community Center",
+    "amount": "30000",
+    "provider": "Red Cross",
+    "services": "Improve community buildings",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
     "title": "Darrington Fire Department",
     "organization": "Darrington Fire Department",
     "amount": "50000",
@@ -117,6 +189,33 @@
     "multiples": ""
   },
   {
+    "title": "Darrington School District",
+    "organization": "Darrington School District",
+    "amount": "100000",
+    "provider": "Red Cross",
+    "services": "Full-time school counselor for two years",
+    "category": "Physical / mental health services",
+    "multiples": ""
+  },
+  {
+    "title": "Darrington School District",
+    "organization": "Darrington School District",
+    "amount": "15000",
+    "provider": "United Way",
+    "services": "Promoting youth sports, sending 30 children to Camp Arnold in Eatonville",
+    "category": "Youth programs",
+    "multiples": ""
+  },
+  {
+    "title": "Economic Alliance Snohomish County",
+    "organization": "Economic Alliance Snohomish County",
+    "amount": "15000",
+    "provider": "United Way",
+    "services": "Work with mayors of Arlington, Darrington and other local leaders on ecoconomic development plan",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
     "title": "Gift cards",
     "organization": "Gift cards",
     "amount": "5695",
@@ -131,15 +230,24 @@
     "amount": "49000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
-    "category": "Physical / mental health services",
+    "category": "Disaster relief",
     "multiples": ""
   },
   {
-    "title": "Arlington Family Resource Project Housing Program",
-    "organization": "Arlington Family Resource Project Housing Program",
-    "amount": "107000",
-    "provider": "Cascade Valley Hospital Foundation",
-    "services": "Aid to victims who lost primary residence, $30,000 per family for up to 24 months",
+    "title": "Green Cross Academy",
+    "organization": "Green Cross Academy",
+    "amount": "3000",
+    "provider": "United Way",
+    "services": "Trauma support",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Hampton Mill in Darrington",
+    "organization": "Hampton Mill in Darrington",
+    "amount": "150000",
+    "provider": "United Way",
+    "services": "Partnership with WDOC, covers extra fuel costs for truckers",
     "category": "Family & community services",
     "multiples": ""
   },
@@ -171,6 +279,33 @@
     "multiples": ""
   },
   {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "350000",
+    "provider": "Red Cross",
+    "services": "Increase organization's capacity as resource center",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
+    "title": "North Counties Family Services",
+    "organization": "North Counties Family Services",
+    "amount": "862204",
+    "provider": "United Way",
+    "services": "Emergency cash allotments, housing, child care, commuting for Darrington families, agency operating costs, extra costs related to slide response",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
+    "title": "North Sound Society of St. Vincent de Paul",
+    "organization": "North Sound Society of St. Vincent de Paul",
+    "amount": "20000",
+    "provider": "United Way",
+    "services": "\"Houses in a box\"",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
     "title": "NW Emergency Physicians",
     "organization": "NW Emergency Physicians",
     "amount": "519",
@@ -198,6 +333,24 @@
     "multiples": ""
   },
   {
+    "title": "Oso Fire District",
+    "organization": "Oso Fire District",
+    "amount": "25000",
+    "provider": "United Way",
+    "services": "Extra costs related to slide response",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Oso Firemen's Association Mudslide Fund",
+    "organization": "Oso Firemen's Association Mudslide Fund",
+    "amount": "75000",
+    "provider": "United Way",
+    "services": "Support for Oso families",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
     "title": "Oso Volunteer Fire Department",
     "organization": "Oso Volunteer Fire Department",
     "amount": "50000",
@@ -216,12 +369,39 @@
     "multiples": ""
   },
   {
+    "title": "Red Cross",
+    "organization": "Red Cross",
+    "amount": "3727000",
+    "provider": "Red Cross",
+    "services": "Emergency food, shelter, relief items, physical and mental health services, individual recovery planning and assistance, disaster preparedness and community rebuilding",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
     "title": "Safe Harbor Free Clinic",
     "organization": "Safe Harbor Free Clinic",
     "amount": "10000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
     "category": "Physical / mental health services",
+    "multiples": "Physical / mental health services; Disaster relief"
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "amount": "118954",
+    "provider": "United Way",
+    "services": "Support for disaster case manager to help survivors identify needs and work with nonprofits and government agencies, sending 30 children to Camp Arnold in Eatonville",
+    "category": "Family & community services",
+    "multiples": ""
+  },
+  {
+    "title": "Salvation Army",
+    "organization": "Salvation Army",
+    "amount": "100000",
+    "provider": "Red Cross",
+    "services": "Ongoing casework",
+    "category": "Disaster relief",
     "multiples": ""
   },
   {
@@ -297,12 +477,39 @@
     "multiples": ""
   },
   {
+    "title": "Stanwood-Camano Incident Support",
+    "organization": "Stanwood-Camano Incident Support",
+    "amount": "10000",
+    "provider": "Cascade Valley Hospital Foundation",
+    "services": "",
+    "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
     "title": "The Soup Ladies",
     "organization": "The Soup Ladies",
     "amount": "25000",
     "provider": "Cascade Valley Hospital Foundation",
     "services": "",
     "category": "Disaster relief",
+    "multiples": ""
+  },
+  {
+    "title": "Town of Darrington",
+    "organization": "Town of Darrington",
+    "amount": "25000",
+    "provider": "United Way",
+    "services": "Extra costs related to slide response",
+    "category": "Family & community services",
+    "multiples": "Youth programs"
+  },
+  {
+    "title": "Union Bank",
+    "organization": "Union Bank",
+    "amount": "250",
+    "provider": "United Way",
+    "services": "Gas cards",
+    "category": "Family & community services",
     "multiples": ""
   },
   {
@@ -315,218 +522,11 @@
     "multiples": ""
   },
   {
-    "title": "Stanwood-Camano Incident Support",
-    "organization": "Stanwood-Camano Incident Support",
-    "amount": "10000",
-    "provider": "Cascade Valley Hospital Foundation",
-    "services": "",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Arlington Food Bank",
-    "organization": "Arlington Food Bank",
-    "amount": "25000",
-    "provider": "Red Cross",
-    "services": "Replenish food bank stock",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Catholic Community Services",
-    "organization": "Catholic Community Services",
-    "amount": "100000",
-    "provider": "Red Cross",
-    "services": "Disaster case manager support",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Darrington Community Center",
-    "organization": "Darrington Community Center",
-    "amount": "30000",
-    "provider": "Red Cross",
-    "services": "Improve community buildings",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Darrington School District",
-    "organization": "Darrington School District",
-    "amount": "100000",
-    "provider": "Red Cross",
-    "services": "Full-time school counselor for two years",
-    "category": "Physical / mental health services",
-    "multiples": ""
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "350000",
-    "provider": "Red Cross",
-    "services": "Increase organization's capacity as resource center",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Salvation Army",
-    "organization": "Salvation Army",
-    "amount": "100000",
-    "provider": "Red Cross",
-    "services": "Ongoing casework",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Red Cross",
-    "organization": "Red Cross",
-    "amount": "3727000",
-    "provider": "Red Cross",
-    "services": "Emergency food, shelter, relief items, physical and mental health services, individual recovery planning and assistance, disaster preparedness and community rebuilding",
-    "category": "Family & community services",
-    "multiples": "Physical / mental health services; Disaster relief"
-  },
-  {
-    "title": "American Red Cross of Snohomish County",
-    "organization": "American Red Cross of Snohomish County",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Donor designation to local chapter",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Arlington Family Resource Project",
-    "organization": "Arlington Family Resource Project",
-    "amount": "600000",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Oso families, start-up costs for Stanwood Camano Resource Center, and extra costs related to slide response",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Camp Fire USA: Snohomish County Council",
-    "organization": "Camp Fire USA: Snohomish County Council",
-    "amount": "24750",
-    "provider": "United Way",
-    "services": "Sending 50 children from Darrington to Camp Killoqua",
-    "category": "Youth programs",
-    "multiples": ""
-  },
-  {
-    "title": "Catholic Community Services",
-    "organization": "Catholic Community Services",
-    "amount": "53000",
-    "provider": "United Way",
-    "services": "Gas cards, support for diaster case manager to help survivors identify needs and work with nonprofits and government agencies",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Darrington School District",
-    "organization": "Darrington School District",
-    "amount": "15000",
-    "provider": "United Way",
-    "services": "Promoting youth sports, sending 30 children to Camp Arnold in Eatonville",
-    "category": "Youth programs",
-    "multiples": ""
-  },
-  {
-    "title": "Economic Alliance Snohomish County",
-    "organization": "Economic Alliance Snohomish County",
-    "amount": "15000",
-    "provider": "United Way",
-    "services": "Work with mayors of Arlington, Darrington and other local leaders on ecoconomic development plan",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Green Cross Academy",
-    "organization": "Green Cross Academy",
-    "amount": "3000",
-    "provider": "United Way",
-    "services": "Trauma support",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Hampton Mill in Darrington",
-    "organization": "Hampton Mill in Darrington",
-    "amount": "150000",
-    "provider": "United Way",
-    "services": "Partnership with WDOC, covers extra fuel costs for truckers",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "North Counties Family Services",
-    "organization": "North Counties Family Services",
-    "amount": "862204",
-    "provider": "United Way",
-    "services": "Emergency cash allotments, housing, child care, commuting for Darrington families, agency operating costs, extra costs related to slide response",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "North Sound Society of St. Vincent de Paul",
-    "organization": "North Sound Society of St. Vincent de Paul",
-    "amount": "20000",
-    "provider": "United Way",
-    "services": "\"Houses in a box\"",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Oso Fire District",
-    "organization": "Oso Fire District",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Extra costs related to slide response",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Oso Firemen's Association Mudslide Fund",
-    "organization": "Oso Firemen's Association Mudslide Fund",
-    "amount": "75000",
-    "provider": "United Way",
-    "services": "Support for Oso families",
-    "category": "Disaster relief",
-    "multiples": ""
-  },
-  {
-    "title": "Salvation Army",
-    "organization": "Salvation Army",
-    "amount": "118954",
-    "provider": "United Way",
-    "services": "Support for disaster case manager to help survivors identify needs and work with nonprofits and government agencies, sending 30 children to Camp Arnold in Eatonville",
-    "category": "Family & community services",
-    "multiples": "Youth programs"
-  },
-  {
-    "title": "Town of Darrington",
-    "organization": "Town of Darrington",
-    "amount": "25000",
-    "provider": "United Way",
-    "services": "Extra costs related to slide response",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
     "title": "WorkForce Snohomish",
     "organization": "WorkForce Snohomish",
     "amount": "17990",
     "provider": "United Way",
     "services": "Parks restoration project",
-    "category": "Family & community services",
-    "multiples": ""
-  },
-  {
-    "title": "Union Bank",
-    "organization": "Union Bank",
-    "amount": "250",
-    "provider": "United Way",
-    "services": "Gas cards",
     "category": "Family & community services",
     "multiples": ""
   }
