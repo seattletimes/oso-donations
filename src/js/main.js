@@ -142,9 +142,10 @@ node.append("circle")
     if (size < 3) { size = 3 }
     return d.type == "organization" ? size : Math.log(d.amount/700)*3
   })
-  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#CCC" })
+  .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
   .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
-  
+  .style("stroke-width", 1)
+
   .on("click", function(d) { 
     onHoverOrClick(d, this);
   })
@@ -152,8 +153,12 @@ node.append("circle")
     onHoverOrClick(d, this);
   });
 
-svg.on("mouseleave", function() {
+svg.on("mouseleave", function(d) {
   initPanel();
+  node.selectAll("circle")
+    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
+    .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
+    .style("stroke-width", 1);
 })
 
 // Titles
@@ -180,7 +185,7 @@ initPanel();
 
 var onHoverOrClick = function(d, target) {
   node.selectAll("circle")
-    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#CCC" })
+    .style("fill", function(d) { return d.type == "organization" ? "#EEE" : "#BBB" })
     .style("stroke", function(d) { return d.type == "organization" ? colors[d.categories[0]].dark : "white" })
     .style("stroke-width", 1);
   d3.select(target)
